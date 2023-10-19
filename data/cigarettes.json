@@ -1,0 +1,73 @@
+[
+  {
+    "name": "John Player",
+    "flavours": ["Smooth", "Plus Select", "Bold", "Rich"]
+  },
+  {
+    "name": "Pall Mall",
+    "flavours": ["Full", "Bold", "Smooth"]
+  },
+  {
+    "name": "du Maurier",
+    "flavours": [
+      "Distinct",
+      "Distinct Plus",
+      "Smooth",
+      "Mellow",
+      "Signature",
+      "Special"
+    ]
+  },
+  {
+    "name": "Matinée",
+    "flavours": ["Mellow"]
+  },
+  {
+    "name": "Malboro",
+    "flavours": ["Full", "Select", "Smooth"]
+  },
+  {
+    "name": "Vogue",
+    "flavours": ["default"]
+  },
+  {
+    "name": "Player's",
+    "flavours": ["default", "smooth"]
+  },
+  {
+    "name": "Export A",
+    "flavours": ["Smooth"]
+  },
+  {
+    "name": "Macdonald",
+    "flavours": ["Original", "Smooth"]
+  },
+  {
+    "name": "Number Seven",
+    "flavours": ["Original"]
+  },
+  {
+    "name": "Next",
+    "flavours": ["Original", "Xtra", "Sélecte", "Smooth"]
+  },
+  {
+    "name": "Belmont",
+    "flavours": ["default", "Select"]
+  },
+  {
+    "name": "Canadian Classics",
+    "flavours": ["Original", "Select"]
+  },
+  {
+    "name": "Benson and Hedges",
+    "flavours": ["Prime"]
+  },
+  {
+    "name": "LD",
+    "flavours": ["Bold", "Smooth", "Medium"]
+  },
+  {
+    "name": "Philip Morris",
+    "flavours": ["Original"]
+  }
+]
