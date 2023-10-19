@@ -19,7 +19,8 @@
         "size": "RG/20",
         "price": "34.55"
       }
-    ]
+    ],
+    "category": 1
   },
   {
     "name": "Canadian Classics",
@@ -41,7 +42,8 @@
         "size": "RG/20",
         "price": "32.56"
       }
-    ]
+    ],
+    "category": 2
   },
   {
     "name": "du Maurier",
@@ -63,7 +65,8 @@
         "size": "RG/20",
         "price": "35.20"
       }
-    ]
+    ],
+    "category": 3
   },
   {
     "name": "du Maurier",
@@ -77,7 +80,8 @@
         "size": "RG/20",
         "price": "37.01"
       }
-    ]
+    ],
+    "category": 4
   },
   {
     "name": "du Maurier",
@@ -99,7 +103,8 @@
         "size": "RG/20",
         "price": "34.26"
       }
-    ]
+    ],
+    "category": 5
   },
   {
     "name": "John Player",
@@ -121,7 +126,8 @@
         "size": "RG/20",
         "price": "32.63"
       }
-    ]
+    ],
+    "category": 6
   },
   {
     "name": "Matinée",
@@ -131,7 +137,8 @@
         "size": "KS/25",
         "price": "45.91"
       }
-    ]
+    ],
+    "category": 7
   },
   {
     "name": "Next",
@@ -153,7 +160,8 @@
         "size": "RG/20",
         "price": "29.71"
       }
-    ]
+    ],
+    "category": 8
   },
   {
     "name": "Pall Mall",
@@ -175,6 +183,7 @@
         "size": "RG/20",
         "price": "28.54"
       }
-    ]
+    ],
+    "category": 9
   }
 ]
