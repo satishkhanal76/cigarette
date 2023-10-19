@@ -1,0 +1,67 @@
+Algorithm
+
+[
+    {
+        "cigarette": "du Maurier",
+        "flavour": "Distinct",
+        "size": "KS/25",
+        "quantity": 1
+    }, 
+    {
+        "cigarette": "du Maurier",
+        "flavour": "Signature",
+        "size": "KS/25",
+        "quantity": 1
+    }
+]
+
+
+- Get an item
+- categories them
+    -for each item in the chosen list
+        - get the corresponding discount array
+        - if found any get the price and look in the categorized list for the price
+            -if found on the categories list add it to the cigarettes list else create a new object
+        
+
+[
+    {
+        "price": "",
+        "cigarettes": [
+            {
+                "cigarette": "du Maurier",
+                "flavour": "Distinct",
+                "size": "KS/25",
+                "quantity": 1
+            }, 
+            {
+                "cigarette": "du Maurier",
+                "flavour": "Signature",
+                "size": "KS/25",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "price": "",
+        "cigarettes": [
+            {
+                "cigarette": "du Maurier",
+                "flavour": "Distinct",
+                "size": "KS/25",
+                "quantity": 1
+            }, 
+            {
+                "cigarette": "du Maurier",
+                "flavour": "Signature",
+                "size": "KS/25",
+                "quantity": 1
+            }
+        ]
+    }
+]
+
+-run through each categories and add up the total
+-if total >= 2 divide it by 2 
+    -quotient is the number of open department under that price (discounted price)
+    -remainder if the number of times that needs to be scanned (no discount) if any
