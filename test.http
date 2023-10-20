@@ -1,7 +1,7 @@
 POST http://localhost:3000/chosen-cigarettes HTTP/1.1
 content-type: application/json
 
-[
+{"data": [
     {
         "name": "Pall Mall",
         "flavour": "Smooth",
@@ -27,3 +27,4 @@ content-type: application/json
         "quantity": 2
     }
 ]
+}

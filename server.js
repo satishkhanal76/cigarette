@@ -30,7 +30,8 @@ app.get("/discounts", (req, res) => {
 
 app.post("/chosen-cigarettes", jsonParser, (req, res) => {
   const responseObj = [];
-  const chosenCigarettes = req.body;
+  const chosenCigarettes = req.body.data;
+  console.log(req.body.data);
   for (let i = 0; i < chosenCigarettes.length; i++) {
     const cigarette = chosenCigarettes[i];
     const discountObject = getDiscountObject(cigarette);
