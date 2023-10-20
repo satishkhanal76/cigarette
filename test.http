@@ -1,30 +1,25 @@
 POST http://localhost:3000/chosen-cigarettes HTTP/1.1
 content-type: application/json
 
-{"data": [
-    {
-        "name": "Pall Mall",
-        "flavour": "Smooth",
-        "size": "KS/25",
-        "quantity": 3
-    },
-    {
-        "name": "Pall Mall",
-        "flavour": "Full",
-        "size": "KS/25",
-        "quantity": 2
-    },
-    {
-        "name": "Pall Mall",
-        "flavour": "Full",
-        "size": "RG/25",
-        "quantity": 2
-    },
-    {
-        "name": "John Player",
-        "flavour": "Plus Select",
-        "size": "KS/25",
-        "quantity": 2
-    }
-]
+{
+    "data": [
+        {
+            "flavour": "Full",
+            "size": "KS/25",
+            "quantity": 3,
+            "name": "Pall Mall"
+        },
+        {
+            "flavour": "Full",
+            "size": "KS/25",
+            "quantity": 5,
+            "name": "Pall Mall"
+        },
+        {
+            "flavour": "Mellow",
+            "size": "KS/25",
+            "quantity": 1,
+            "name": "Matinée"
+        }
+    ]
 }
