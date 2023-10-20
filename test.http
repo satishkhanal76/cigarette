@@ -6,20 +6,14 @@ content-type: application/json
         {
             "flavour": "Full",
             "size": "KS/25",
-            "quantity": 3,
+            "quantity": "1",
             "name": "Pall Mall"
         },
         {
             "flavour": "Full",
             "size": "KS/25",
-            "quantity": 5,
+            "quantity": "13",
             "name": "Pall Mall"
-        },
-        {
-            "flavour": "Mellow",
-            "size": "KS/25",
-            "quantity": 1,
-            "name": "Matinée"
         }
     ]
 }

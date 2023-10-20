@@ -69,7 +69,7 @@ app.post("/chosen-cigarettes", jsonParser, (req, res) => {
 
   const formattedResponseObj = responseObj.map((obj) => {
     const totalQuantity = obj.cigarettes.reduce((accumulator, cigarette) => {
-      return accumulator + cigarette.quantity;
+      return accumulator + parseInt(cigarette.quantity);
     }, 0);
     if (!obj.hasADiscount) {
       obj.scanDetails = {
